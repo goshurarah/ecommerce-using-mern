@@ -16,7 +16,7 @@ process.on("uncaughtException", (err) => {
 connectDatabase();
 
 const server=app.listen(process.env.PORT,()=>{
-    console.log(`Server is Listening On Http://localhost:${process.env.PORT}`);
+    console.log(`Server is Listening On http://localhost:${process.env.PORT}`);
 })
 
 

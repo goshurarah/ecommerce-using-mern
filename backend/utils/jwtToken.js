@@ -1,4 +1,4 @@
-// creating token and Saving in Cokiers
+// creating token and Saving in Cokiees
 
 const sendToken=(user,statusCode,res)=>{
     const token=user.generateToken();

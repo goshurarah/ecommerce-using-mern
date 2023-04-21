@@ -4,11 +4,10 @@ const dotenv = require("dotenv")
 dotenv.config({ path: './config.env' })
 
 const connectDatabase = () => {
-    console.log(process.env.MONGO_URL);
-    mongoose.connect(process.env.MONGO_URL)
-        .then((con) => {
-            console.log(`MongoDB connection SuccessFully`);
-        })
+  mongoose.connect(process.env.MONGO_URL)
+    .then(() => {
+      console.log(`MongoDB connected SuccessFully`);
+    })
 }
 
 module.exports = connectDatabase;

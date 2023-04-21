@@ -1,0 +1,91 @@
+.signupFormBox {
+    background-color: rgb(153, 232, 235);
+    width: 25%;
+    position: relative;
+    margin: 1.5rem auto;
+    border-radius: 2rem;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.signupHeaderImg {
+    height: 12rem;
+    border-radius: 1.5rem;
+    width: 94.2%;
+    margin: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signupInputForm {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signupInputForm input {
+    color: grey;
+    width: 95%;
+    padding: 0.7rem 0.5rem;
+    margin: 0.4rem auto;
+    border-radius: 0.7rem;
+    outline: none;
+    border: none;
+    background: azure;
+}
+
+.signupInputForm button {
+    width: fit-content;
+    border: none;
+    padding: 0.5rem 1.4rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.signupInputForm button:hover {
+    box-shadow: 0 -8px 6px -6px #000;
+    transform: translateY(0.2rem);
+    cursor: pointer;
+}
+
+.signupInputForm h3 {
+    text-align: center;
+    color: grey;
+}
+
+.loginLink {
+    cursor: pointer;
+}
+
+
+/* TABLETS */
+@media screen and (max-width:920px) {
+    .signupFormBox {
+        width: 40%;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width:780px) {
+    .signupFormBox {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .signupFormBox {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .signupFormBox {
+        width: 70%;
+    }
+}
